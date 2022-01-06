@@ -53,6 +53,8 @@ public class UserRepositoryTest {
         assertThat(existUser.getEmail()).isEqualTo(user.getEmail());
 
         /*System.out.println("tite");*/
+        /*System.out.println("ko");*/
+        /*System.out.println("malaki");*/
 
     }
 
