@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Columbarium</title>
+    <link rel="stylesheet" th:href="@{/css/style3.css}"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+<section>
+    <header>
+        <a href="#"><img th:src="@{/css/images/clogo.png}" class="logo"></a>
+        <h2>San Jose Parish</h2>
+        <ul>
+            <li><a th:href= "@{/}">Home</a></li>
+            <li><a th:href= "@{/contact-us}">Contact us</a></li>
+            <li><a th:href= "@{/about-us}">About us</a></li>
+            <li><a th:href= "@{/login}">Login</a></li>
+        </ul>
+    </header>
+    <h1 class="ctxt"> CONTACT US</h1>
+    <div class="contacts">
+        <div class="ch">
+            <img th:src="@{/css/images/sanjose.jpg}" class="church"><br>
+        </div>
+        <div class="form">
+            <h2 class="tn">Name</h2><br>
+            <input type="text" placeholder="Enter your Name" class="name">
+            <h2 class="te">Email</h2><br>
+            <input type="email" placeholder="Enter your email" class="email">
+            <h2 class="tm">Message</h2><br>
+            <textarea class="message"></textarea><br>
+            <button class="sendbtn" type="submit">Send</button>
+        </div>
+    </div>
+
+    <div class="em1">
+        <h2 class="tem">Email</h2><br>
+        <img th:src="@{/css/images/emaillogooo.png}" class="em"><br>
+        <a th:href="@{https://www.facebook.com/sanjosedenavotasshrine/}" th:target="_blank" class="mail">sanjosedenavotas@dioceseofkalookan.ph</a>
+    </div>
+    <div class="p1">
+        <h2 class="tp">Phone Number</h2><br>
+        <img th:src="@{/css/images/picon.png}" class="p"><br>
+        <p class="num">(02) 8282 9126</p>
+    </div>
+    <div class="l1">
+        <h2 class="tl">Location
+        </h2><br>
+        <img th:src="@{/css/images/gps.png}" class="l"><br>
+        <p class="locc">M. Naval St. San Jose Navotas City<br> 1485 Navotas, Philippines</p>
+    </div>
+
+</body>
+</html>

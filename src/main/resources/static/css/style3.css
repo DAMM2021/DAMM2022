@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Poppins:ital,wght@1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Poppins:ital,wght@0,600;1,200;1,300&family=Vollkorn+SC:wght@400;600&display=swap');
+/* Home Page*/
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins' sans-serif;
+}
+section{
+  position: relative;
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+header{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+header .logo{
+position: absolute; 
+max-width: 100px;
+display: flex;
+padding: 10px;
+top: 0%;
+left: 0%;
+}
+header h2
+{
+position: absolute;
+margin-top: 1%;
+margin-left: -1%;
+font-family: 'Poppins', sans-serif;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    text-align: center;
+
+}
+header ul li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+header ul li a
+{
+  display: inline-block;
+  color: #000000;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+  padding-top: 10px;  
+}
+.content
+{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .textBox 
+{
+  position: relative;
+  max-width: 600px;
+  
+}
+.content .textBox h2
+{
+  color: #333;
+  font-size: 4em;
+  line-height: 1.4em;
+  font-weight: 500;
+  font-family: 'Vollkorn SC', serif;
+}
+.content .textBox h2 span
+{
+  font-size: 1.2em;
+  font-weight: 900;
+  color: #41e197;
+}
+.content .textBox p
+{
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-size: 13px;
+}
+.content .textBox a
+{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background-image: linear-gradient(to bottom right, #3cb7b5, #41e197);
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  
+}
+.content .imgbox
+{
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  margin-top: 70px;
+ 
+}
+.content .imgbox img
+{
+  max-width: 500px;
+}
+.contact
+{
+  margin-top: 60px;
+  margin-left: 50px;
+  position: absolute;
+  top: 50%;
+  left: 86%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact li
+{
+  list-style: none;
+}
+.contact li a
+{
+display: inline-block;
+margin: 7px 0;
+transform: scale(0.9);
+filter: invert(1);
+}
+.circle
+{
+position: absolute;
+top: 0%;
+left: 0%;
+width: 95%;
+height: 100%;
+background-image: linear-gradient(to bottom right, #3cb7b5, #41e197);
+clip-path: circle(550px at right 700px);
+}
+/* About US*/
+.square
+{
+position: absolute;
+top: 0%;
+left: 0%;
+width: 100%;
+height: 180%;
+margin-top: 100px;
+background-color: #151B54;
+
+}
+.acontent
+{
+  position: absolute;
+  margin-top: 300px;
+  justify-content: space-between;
+  margin-left: 250px;
+  color: #fff;
+}
+.acontent h2
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 290px;
+  font-size: 2em;
+  margin-top: 40px;
+}
+.acontent p
+{
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.90em;
+  
+}
+.mission
+{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.mission .imgmission
+{
+  width: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 290px;
+  margin-left: 200px;
+ 
+}
+.mission .imgmission .mimg
+{
+max-width: 250px;
+}
+
+.mission .mtext
+{
+margin-right: 180px;
+margin-top: 260px;
+box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .5);
+padding: 50px;
+border-radius: 10px;
+}
+.mission .mtext h2
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 250px;
+}
+.mission .mtext p
+{
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-size: 0.90em;
+  text-align: center;
+}
+.vision
+{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -100px;
+}
+.vision .imgvision
+{
+  width: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 450px;
+  margin-top: 150px;
+ 
+}
+.mission .imgvision .vimg
+{
+max-width: 250px;
+
+}
+
+.vision .vtext
+{
+margin-left: 180px;
+margin-top: 100px;
+box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .5);
+padding: 60px;
+border-radius: 10px;
+}
+.vision .vtext h2
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 220px;
+}
+.vision .vtext p
+{
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-size: 0.90em;
+  text-align: center;
+}
+.wdwd
+{
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -240px;
+}
+.wdwd .imgwdwd
+{
+  width: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 290px;
+  margin-left: 200px;
+ 
+}
+.wdwd .imgwdwd .wdwdimg
+{
+max-width: 250px;
+}
+
+.wdwd .wdwdtext
+{
+margin-right: 180px;
+margin-top: 260px;
+box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .5);
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 60px;
+padding-left: 60px;
+border-radius: 10px;
+}
+.wdwd .wdwdtext h2
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 180px;
+}
+.wdwd .wdwdtext p
+{
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-size: 0.90em;
+  text-align: center;
+}
+/*111*/
+.description
+{
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -200px;
+  margin-left: 50px;
+}
+.description .sanjosee
+{
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 290px;
+  margin-left: 100px;
+ 
+}
+
+.description .sanjosetxt
+{
+margin-right: 180px;
+margin-top: 260px;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 60px;
+padding-left: 60px;
+align-items: center;
+
+}
+.description .sanjosetxt h2
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 140px;
+}
+.description .sanjosetxt p
+{
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-size: 0.90em;
+  text-align: center;
+}
+.dev
+{
+margin-left: 650px;
+margin-top: 200px;
+margin-bottom: -100px;
+font-family: 'Poppins', sans-serif;
+font-size: 2em;
+}
+.developer
+{
+
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.developer .apaya
+{
+  width: 3px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 150px;
+  margin-left: 350px;
+}
+.developer .apaya .apaya1
+{
+  height: 120px;
+  width: 120px;
+  border-radius: 7px;
+
+}
+.developer .apayatext
+{
+  margin-right: 730px;
+  margin-top: 150px;
+  background-image: linear-gradient(to bottom right, #3cb7b5, #41e197);
+  padding: 10px;
+  border-radius: 7px;
+}
+.developer .apayatext h3
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+}
+.developer .apayatext h4
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.90em;
+}
+.developer .apayatext p
+{
+  padding-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.80em;
+}
+.developer2
+{
+
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: -300px;
+  margin-top: -130px;
+}
+.developer2 .dale
+{
+  width: 3px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 150px;
+  margin-left: 350px;
+}
+.developer2 .dale .dale1
+{
+  height: 120px;
+  width: 120px;
+  border-radius: 7px;
+
+}
+.developer2 .daletext
+{
+  margin-right: 740px;
+  margin-top: 150px;
+  background-image: linear-gradient(to bottom right, #3cb7b5, #41e197);
+  padding: 10px;
+  border-radius: 7px;
+}
+.developer2 .daletext h3
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+}
+.developer2 .daletext h4
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.90em;
+}
+.developer2 .daletext p
+{
+  padding-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.80em;
+}
+.developer3
+{
+
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -405px;
+}
+.developer3 .lans
+{
+  width: 3px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 150px;
+  margin-left: 800px;
+}
+.developer3 .lans .lans1
+{
+  height: 120px;
+  width: 120px;
+  border-radius: 7px;
+
+}
+.developer3 .lanstext
+{
+  margin-right: 355px;
+  margin-top: 150px;
+  background-image: linear-gradient(to bottom right, #3cb7b5, #41e197);
+  padding: 10px;
+  border-radius: 7px;
+}
+.developer3 .lanstext h3
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+}
+.developer3 .lanstext h4
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.90em;
+}
+.developer3 .lanstext p
+{
+  padding-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.80em;
+}
+.developer4
+{
+
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -130px;
+  margin-bottom: 100px;
+}
+.developer4 .lem
+{
+  width: 3px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 150px;
+  margin-left: 800px;
+}
+.developer4 .lem .lem1
+{
+  height: 120px;
+  width: 120px;
+  border-radius: 7px;
+
+}
+.developer4 .lemtext
+{
+  margin-right: 250px;
+  margin-top: 150px;
+  background-image: linear-gradient(to bottom right, #3cb7b5, #41e197);
+  padding: 10px;
+  border-radius: 7px;
+}
+.developer4 .lemtext h3
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+}
+.developer4 .lemtext h4
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.90em;
+}
+.developer4 .lemtext p
+{
+  padding-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.80em;
+}
+.form{
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 100px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.form .name{
+  height: 40px;
+  width: 250px;
+  border-radius: 9px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+.form .email{
+  height: 40px;
+  width: 250px;
+  border-radius: 9px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+.form .message{
+  height: 100px;
+  width: 250px;
+  border-radius: 9px;
+
+}
+.form .sendbtn
+{
+
+   height: 40px;
+   width: 130px;
+   margin-top: 20px;
+   display: block;
+   border-radius: 20px;
+   background-image: linear-gradient(to bottom right, #3cb7b5, #41e197);
+   border: none;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+   border-width: thin;
+   color: white;
+   letter-spacing: 0.3ch;
+}
+::-webkit-input-placeholder
+{
+    color: darkgray;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1ch;
+}
+.ctxt{
+  margin-top: -800px;
+  margin-left: 480px;
+  font-size: 2.5em;
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+}
+.contacts{
+  display: flex;
+    justify-content:space-between;
+    margin-top: -300px;
+    position: absolute;
+}
+.contacts .church{
+  width: 700px;
+  height: 400px;
+  margin-top: 80px;
+}
+.contacts .form{
+  margin-top: 70px;
+}
+.em1{
+  align-items: center;
+  margin-top: 700px;
+  margin-left: 30px;
+  text-align: center;
+  margin-left: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+.em1 .em{
+  height: 70px;
+  width: 70px;
+  align-items: center;
+margin-bottom: 15px;
+}
+
+.p1{
+  margin-top: 700px;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+.p1 .p{
+  height: 100px;
+  width: 100px;
+}
+.l1{
+   font-family: 'Poppins', sans-serif;
+  margin-top: 720px;
+  text-align: center;
+  margin-right: 200px;
+}
+.l1 .l{
+  height: 70px;
+  width: 70px;
+  margin-top: 5px;
+}
+.l1 .locc{
+  margin-top: 20px;
+}
+
+
+
+
